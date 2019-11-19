@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                final Snackbar snackbar = Snackbar.make(view, "Essa é a SnackBar. VAI CORINTHIANS!", Snackbar.LENGTH_LONG);
+                final Snackbar snackbar = Snackbar.make(view, "Você clicou no FloatButton. Essa é a SnackBar.", Snackbar.LENGTH_LONG);
                 snackbar.setAction("Fechar", new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
